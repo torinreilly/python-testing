@@ -14,3 +14,8 @@ def division(x, y):
     if y == 0:
         raise ZeroDivisionError("cant divide by zero. . .")
     return x / y
+
+def modulo(x,y):
+    if y == 0:
+        raise ZeroDivisionError("cant divide by zero. . .")
+    return x % y

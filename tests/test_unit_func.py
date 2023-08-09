@@ -1,6 +1,6 @@
 import unittest
 
-from src.sample_func import add, subtract, multiply, division
+from src.sample_func import add, subtract, multiply, division, modulo
 
 
 class TestOne(unittest.TestCase):
@@ -20,6 +20,11 @@ class TestOne(unittest.TestCase):
         self.assertEqual(round(division(4, 9)), 0)
         self.assertEqual(division(18, 9), 2)
         self.assertRaises(ZeroDivisionError, division, 4, 0)
+
+    def test_modulo(self):
+        self.assertEqual(modulo(4, 9), 4)
+        self.assertEqual(modulo(18, 9), 0)
+        self.assertRaises(ZeroDivisionError, modulo, 4, 0)
 
 
 if __name__ == '__main__':
