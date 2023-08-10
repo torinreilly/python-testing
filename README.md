@@ -1,127 +1,45 @@
-# Python-Testing
+# Landslide Testers Challenge Project
 
-![python](assets/test.png)
+### Unleashing the Power of AI-Driven Chatbot for Software Testers
 
-Hello this is [Mr.Rezoo](https://www.linkedin.com/in/reza-mobaraki/)
+[Chatbot Preview](https://web-chat.global.assistant.watson.appdomain.cloud/preview.html?backgroundImageURL=https%3A%2F%2Fau-syd.assistant.watson.cloud.ibm.com%2Fpublic%2Fimages%2Fupx-aeb878a8-b6ea-4df7-ab76-c51d7d7b2ac3%3A%3A00ad4682-4b8f-43a8-96dc-7c137ba9a38f&integrationID=2e6e0af5-996e-491d-87cc-9ec7001231db&region=au-syd&serviceInstanceID=aeb878a8-b6ea-4df7-ab76-c51d7d7b2ac3)
+<br/><img width="300" src="assets/chatbot.png">
+## Agenda
 
-## Table of contents
-
-* [General info](#General-info)
-* [Technologies](#Technologies)
-* [Help](#Help)
-* [Setup](#Setup)
-* [Usage](#Usage)
-* [Credits](#credits)
-* [Contributors](#Contributors)
-* [License](#license)
-
-## General info
-
-in this repository We work on 4 way to testing our application In the simplest
-possible way. . .
-
-* unittest
-* pytest
-* doctest
-* nose
+* [Who are we?](#Team)
+* [What did we make?](#Technology)
+* [Why is it valuable?](#Value)
+* [How is it innovative?](#Innovation)
 
 
-## Technologies
+## Team
+<br/><img width="700" src="assets/LandSlideTestersTeam.png" alt="LandSlideTestersTeam">
 
-Project is created with:
+- Debbie Furman <debbyt@us.ibm.com> (Lead)
+- Eitan Farchi <farchi@il.ibm.com>
+- Ed Pyror <ebpryor@us.ibm.com>
+- James O’Connor <jimoconn@us.ibm.com>
+- Michael Cohoon <mtcohoon@us.ibm.com>
+- Michael Gildein <megildei@us.ibm.com>
+- Paul Wojciak <wojciak@us.ibm.com>
+- Ryan Rawlins <rrawlins@us.ibm.com>
+- Scott Sigalas <ssigala@us.ibm.com>
+- Torin Reilly <treilly@us.ibm.com>
 
-* Python: 3.9
-* nose: 1.3.7
-* pytest: 6.2.4
 
-## Help
+## Technology
+### AI infused chatbot to assist open source software testers
+- Understand the current set of tests via AI generative summary
+- Generate test plan of open source code for review
+- Identify holes in test coverage (we think we can't do this w/ limitations)
+- Generate additional tests to increase coverage
 
-If you are considering a particular method, more modern technology Add to my
-project and send merge request, I will add you in the credits and contributors
-section
+## Value
+- High quality software is paramount to our company and our clients
+- Test domain specific skill takes significant amount of time to grow
+- Understanding existing test assets non-trivial coverage in complex software is often intractable
+- Open source has become ubiquitous with modern enterprise software development and even foundational open source projects have neglected code quality
 
-## Setup
 
-* first step : create virtual environment
-
-```shell
-virtualenv -p python3 venv 
-```
-
-* second step : activate virtual environment
-
-```shell
-source venv/bin/activate  
-```
-
-* third step : install package | library from requirements.txt
-
-```shell
- pip install -r requirements.txt
-```
-
-* fourth step : install package | library from requirements.txt
-
-```shell
- pip install -r requirements.txt
-```
-* last step : go to tests directory if you want to run test
-```shell
- cd tests
-```
-
-## Usage
-
-* run doctest: -v for more detail
-
-```shell
-python -m doctest -v filename.py
-```
-
-* run unittests:
-
-```shell
-python -m unittest -v test_file.py
-```
-
-* run all unittests:
-
-```shell
-python -m unittest -v discover
-```
-
-* run all tests with nose test:
-
-```shell
-nosetests
-```
-
-* run one test with nosetest:
-
-```shell
-nosetests -v test_file.py
-```
-
-* run all tests with pytest:
-
-```shell
-pytest
-```
-
-* run one test with pytest:
-
-```shell
-pytest -v test_file.py
-```
-
-## Credits
-
-* [mongard](https://www.mongard.ir/courses/unittest)
-
-## Contributors
-
-* [MrRezoo](https://github.com/MrRezoo)
-
-## License
-
-Distributed under the MIT License. See [license](LICENSE) for more information.
+## Innovation
+- 
