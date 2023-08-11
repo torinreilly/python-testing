@@ -10,7 +10,7 @@
 * [How is it innovative?](#Innovation)
 
 
-## Team
+## WatsonX Challenge Landslide Testers Team
 <br/><img width="700" src="assets/LandSlideTestersTeam.png" alt="LandSlideTestersTeam">
 
 - Debbie Furman <debbyt@us.ibm.com> (Lead)
