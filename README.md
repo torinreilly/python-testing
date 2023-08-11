@@ -1,8 +1,6 @@
 # Landslide Testers Challenge Project
 
 ### Unleashing the Power of AI-Driven Chatbot for Software Testers
-
-[Chatbot Preview](https://web-chat.global.assistant.watson.appdomain.cloud/preview.html?backgroundImageURL=https%3A%2F%2Fau-syd.assistant.watson.cloud.ibm.com%2Fpublic%2Fimages%2Fupx-aeb878a8-b6ea-4df7-ab76-c51d7d7b2ac3%3A%3A00ad4682-4b8f-43a8-96dc-7c137ba9a38f&integrationID=2e6e0af5-996e-491d-87cc-9ec7001231db&region=au-syd&serviceInstanceID=aeb878a8-b6ea-4df7-ab76-c51d7d7b2ac3)
 <br/><img width="300" src="assets/chatbot.png">
 ## Agenda
 
@@ -28,10 +26,20 @@
 
 
 ## Technology
-### AI infused chatbot to assist open source software testers
-- Understand the current set of tests via AI generative summary
-- Generate test plan of open source code for review
-- Identify holes in test coverage (we think we can't do this w/ limitations)
+### AI infused chatbot to assist software testers
+Via generative AI
+- Automatically summarize the current list of testcases
+- Automatically identify new testcases that are added between two commits
+- Generate test variations and considerations
+- Identify which files have changed
+- Get information about the latest commit (author, message, date)
+
+### Future 
+- Generate test plan of source code for review
+- Autodetect test directories in a repository
+- Run testcases
+- Analyze tests results
+- Identify holes in test coverage
 - Generate additional tests to increase coverage
 
 ## Value
@@ -42,4 +50,7 @@
 
 
 ## Innovation
-- 
+- Capturing institutional knowledge without years to decades of test domain experience
+- Reduce investigation time to find new tests and changes across commits
+- Using commit information recommend the most important areas to test and how to test them
+- Validate the description and details of a code change
